@@ -12,13 +12,13 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hello👋 I'm<br />
+        Hi i'm<br />
         Mahadi Saputra
       </SectionTitle>
       <SectionText>
-        A undergraduate system information student at ITB STIKOM Bali and HELP University Malaysia who likes to coding
+        A undergraduate system information student at ITB STIKOM Bali & HELP University Malaysia who passionate with code
       </SectionText>
-      <Button onClick={() => window.location = '#about'}>
+      <Button onClick={() => window.location = '#projects'}>
         Learn More
       </Button>
     </LeftSection>

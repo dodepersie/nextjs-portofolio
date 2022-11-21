@@ -31,14 +31,13 @@ export const BlogCard = styled.div`
     width: 100%;
   }
 `;
+
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
   margin-top: 1rem;
-
 `;
-
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
@@ -75,7 +74,7 @@ export const CardInfo = styled.p`
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
+    padding: 1.7rem;
 }
 `;
 

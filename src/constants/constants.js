@@ -18,10 +18,10 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Portofolio Site',
-    description: "Mahadi Saputra first portofolio site created with ReactJS!",
+    title: 'Portfolio Site',
+    description: "Mahadi Saputra first and complete portfolio site created with ReactJS, Bootstrap and AOS Library! (Indonesian language portfolio)",
       image: '/images/3.png',
-      tags: ['React'],
+      tags: ['React', 'Bootstrap', 'AOS'],
     source: 'https://github.com/dodepersie/landing',
     visit: 'https://landing-dodepersie.vercel.app/',
     id: 2,
@@ -29,9 +29,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2012, text: 'Started my journey', },
-  { year: 2013, text: 'Developing a Wordpress blog', },
-  { year: 2014, text: 'Developing a Twitter Exchange Followers Website', },
+  { year: 2012, text: 'Started my journey by making a technology blog', },
+  { year: 2013, text: 'Developing a Twitter exchange followers website', },
+  { year: 2014, text: 'Selling Twitter followers', },
   { year: 2019, text: 'Going to information system college', },
   { year: 2022, text: 'Learning more about programming language', },
 ];

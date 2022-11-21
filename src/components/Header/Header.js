@@ -9,8 +9,8 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: 'white', marginBottom: '20px'}}>
-          <GiNinjaHead size="3rem"/> <Span>&nbsp;MS.MY.ID</Span>
+        <a style={{ display: "flex", alignItems: "center", color: 'white'}}>
+          <GiNinjaHead size="3rem"/> <Span>Mahadi Saputra</Span>
         </a>
       </Link>
     </Div1>

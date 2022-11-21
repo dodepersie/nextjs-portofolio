@@ -13,7 +13,7 @@ const Projects = () => (
     </SectionTitle>
     <GridContainer>
       {projects.map(({ id, image, title, description, tags, source, visit }) => (
-        <div data-aos="fade-up" data-aos-duration="3000">
+        <div data-aos="zoom-out-right" data-aos-offset="100" data-aos-duration="500">
           <BlogCard key={id}>
             <Img src={image} />
             <TitleContent>

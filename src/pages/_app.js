@@ -16,8 +16,9 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>mahadisaputra.my.id: Portofolio Site</title>
+        <title>mahadisaputra.my.id: Portfolio</title>
         <meta name="author" content="I Dewa Gede Mahadi Saputra"/>
+        <meta name="description" content="Mahadi Saputra's personal portfolio website" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Theme>

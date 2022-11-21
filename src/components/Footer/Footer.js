@@ -7,6 +7,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
     <FooterWrapper>
+    <div data-aos="fade-right" data-aos-duration="3000">
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
@@ -33,6 +34,7 @@ const Footer = () => {
         </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
+    </div>
     </FooterWrapper>
   );
 };
