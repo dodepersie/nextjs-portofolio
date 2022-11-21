@@ -7,7 +7,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
     <FooterWrapper>
-    <div data-aos="fade-right" data-aos-duration="3000">
+    <div data-aos="fade-right" data-aos-duration="500">
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>

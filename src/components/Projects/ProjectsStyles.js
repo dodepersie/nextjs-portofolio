@@ -74,6 +74,7 @@ export const CardInfo = styled.p`
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
+    width: 45vh;
     padding: 1.7rem;
 }
 `;
@@ -88,14 +89,14 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:#222;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: rgba(45,253,163,1);
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: rgba(34,193,195,1);
 
 }
 `;

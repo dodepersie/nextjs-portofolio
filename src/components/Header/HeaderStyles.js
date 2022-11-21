@@ -1,7 +1,8 @@
 import { IoIosArrowDropdown } from 'react-icons/io';
-import styled from 'styled-components';
+import styled, { isStyledComponent } from 'styled-components';
 
 export const Container = styled.div`
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
@@ -15,6 +16,7 @@ export const Container = styled.div`
     grid-template-rows: repeat(2, 60px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
+    position: relative;
   }
 `;
 

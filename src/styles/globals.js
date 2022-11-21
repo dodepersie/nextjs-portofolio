@@ -32,6 +32,13 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
+  &::-webkit-scrollbar {
+    width: 10px;
+    background: #808dad;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(45,253,163,1);
+  }
 
 `;
 
