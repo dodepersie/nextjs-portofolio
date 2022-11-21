@@ -18,13 +18,22 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Portfolio Site',
-    description: "Mahadi Saputra first and complete portfolio site created with ReactJS, Bootstrap and AOS Library! (Indonesian language portfolio)",
+    title: 'ReactJS Portfolio Site',
+    description: "Mahadi Saputra'\s first and complete portfolio website created with ReactJS, Bootstrap and AOS Library!",
       image: '/images/3.png',
       tags: ['React', 'Bootstrap', 'AOS'],
     source: 'https://github.com/dodepersie/landing',
     visit: 'https://landing-dodepersie.vercel.app/',
     id: 2,
+  },
+  {
+    title: 'NextJS Portfolio Site',
+    description: "You're on this portfolio site now! Mahadi Saputra'\s second portfolio website created with NextJS!",
+      image: '/images/4.png',
+      tags: ['NextJS', 'AOS'],
+    source: 'https://github.com/dodepersie/nextjs-portofolio',
+    visit: 'https://mahadisaputra.my.id/',
+    id: 3,
   },
 ];
 
