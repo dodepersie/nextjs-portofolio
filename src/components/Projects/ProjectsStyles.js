@@ -47,14 +47,6 @@ export const HeaderThree = styled.h3`
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
-export const Hr = styled.hr`
-  width: 50px;
-  height: 3px;
-  margin: 20px auto;
-  border: 0;
-  background: #d0bb57;
-`;
-
 export const Intro = styled.div`
   width: 170px;
   margin: 0 auto;
@@ -68,6 +60,7 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
+  margin: 20px auto;
   padding: 0 50px;
   color: #e4e6e7;
   font-style: 2rem;
@@ -89,7 +82,7 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#222;
+color:#000;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
 background: rgba(45,253,163,1);

@@ -15,10 +15,9 @@ const Projects = () => (
       {projects.map(({ id, image, title, description, tags, source, visit }) => (
         <div data-aos="flip-left" data-aos-offset="100" data-aos-duration="500">
           <BlogCard key={id}>
-            <Img src={image} />
+            <Img src={image} alt={title} />
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
-              <Hr />
             </TitleContent>
             <CardInfo>{description}</CardInfo>
             <div>
