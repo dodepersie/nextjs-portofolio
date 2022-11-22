@@ -5,7 +5,7 @@ NextJS Portfolio Site - Tutorial from JavaScript Mastery - Added by me (Mahadi S
 ## Screenshot
 
 <p align="left">
-  <img src="https://mahadisaputra.my.id/images/5.png" width="350" title="mahadisaputra.my.id Portfolio Site">
+  <img src="https://mahadisaputra.my.id/images/4.png" width="350" title="mahadisaputra.my.id Portfolio Site">
 </p>
 
 ## New feature
