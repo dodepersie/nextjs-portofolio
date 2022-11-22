@@ -29,9 +29,9 @@ export default class MyDocument extends Document {
   }
   render() {
     return (
-      <Html lang='en-GB'>
+      <Html lang='en-US'>
         <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <Main />

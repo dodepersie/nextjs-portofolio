@@ -5,7 +5,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <div data-aos="fade-up" data-aos-duration="1000">
+  <div data-aos="fade-up" data-aos-duration="500">
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>

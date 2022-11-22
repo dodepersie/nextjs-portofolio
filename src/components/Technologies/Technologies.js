@@ -6,7 +6,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider />
-    <div data-aos="fade-up" data-aos-duration="1000">
+    <div data-aos="fade-up" data-aos-duration="500">
     <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
       I have done some projects by myself and i'm a Front-End Web Dev addict and still learning about Back-End Web Dev (‾◡◝)

@@ -30,7 +30,7 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(270deg, rgba(27,218,145,1) 0%, rgba(67,134,81,1) 100%);
+  background: rgba(27,218,145,1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -84,7 +84,7 @@ export const SectionDivider = styled.div`
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
     'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-    'linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(45,253,163,1) 100%)'};
+    'rgba(27,218,145,1)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
@@ -171,13 +171,13 @@ export const ButtonBack = styled.div`
   height: ${({ alt }) => alt ? '52px' : '64px'};
   border-radius: 50px;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
-  font-weight: 600;
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
-  color: #222;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(45,253,163,1) 100%)'};
+  color: #fff;
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(90deg, rgba(51,143,108,1) 0%, rgba(48,150,69,1) 100%)'};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -202,18 +202,18 @@ export const ButtonBack = styled.div`
 export const ButtonFront = styled.button`
   border: none;
   border-radius: 50px;
-  color: #222;
+  color: #fff;
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(45,253,163,1) 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : '#0DAD8E'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
-  font-weight: 600;
+  font-weight: 400;
   align-items: center;
   justify-content: center;
   cursor: pointer;

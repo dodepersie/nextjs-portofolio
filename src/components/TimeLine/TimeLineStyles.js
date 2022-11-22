@@ -51,7 +51,7 @@ export const CarouselItem = styled.div`
   @media ${props => props.theme.breakpoints.sm} {
     margin-left: 32px;
     min-width: 120px;
-    background: #0E131F;
+    background: transparent;
     padding: 4px;
     align-content: start;
     scroll-snap-align: start;
@@ -71,7 +71,7 @@ export const CarouselItemTitle = styled.h4`
   letter-spacing: 0.02em;
   display: flex;
   /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
-  background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
+  background: rgba(27,218,145,1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 8px;

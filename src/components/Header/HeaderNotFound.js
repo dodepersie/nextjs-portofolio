@@ -8,14 +8,14 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 const HeaderNotFound = () =>  {
   return (
     <Container>
-      <Div1 data-aos="fade-right" data-aos-duration="1000">
+      <Div1 data-aos="fade-right" data-aos-duration="500">
         <Link href="/">
           <a style={{ display: "flex", alignItems: "center", color: 'white'}}>
             <GiNinjaHead size="3rem"/> <Span>Mahadi Saputra</Span>
           </a>
         </Link>
       </Div1>
-      <Div3 data-aos="fade-left" data-aos-duration="1000">
+      <Div3 data-aos="fade-left" data-aos-duration="500">
         <SocialIcons href="https://github.com/dodepersie">
           <AiFillGithub size="3rem" />
         </SocialIcons>

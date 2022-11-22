@@ -43,7 +43,7 @@ const Timeline = () => {
   }, []);
 
   return (
-    <div data-aos="fade-up" data-aos-duration="1000">
+    <div data-aos="fade-up" data-aos-duration="500">
     <Section id="about">
     <SectionTitle>About me</SectionTitle>
     <SectionText>
