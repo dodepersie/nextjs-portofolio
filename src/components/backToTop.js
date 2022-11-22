@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { BiUpArrow } from 'react-icons/bi'
+import { ButtonToTop } from './backToTopStyle'
 
 function BackToTop() {
     const [backToTop, setBackToTop] = useState(false);
@@ -24,22 +25,13 @@ function BackToTop() {
     return (
         <>
             {backToTop && (
-                <button 
+                <ButtonToTop 
                     data-aos="fade-up" 
                     data-aos-duration="500" 
-                    style={{ 
-                        background: "transparent",
-                        border: "none",
-                        color: "rgba(45,253,163,1)",
-                        position: "fixed", 
-                        bottom: "50px", 
-                        right: "50px", 
-                        fontSize: "4rem",
-                    }}
                     onClick={scrollUp}
                 >
-                    <BiUpArrow />
-                </button>
+                    <BiUpArrow style={{ fontSize: "4rem" }} />
+                </ButtonToTop>
             )}
         </>
     )

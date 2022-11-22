@@ -30,7 +30,7 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(45,253,163,1) 100%);
+  background: linear-gradient(270deg, rgba(27,218,145,1) 0%, rgba(67,134,81,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -176,7 +176,7 @@ export const ButtonBack = styled.div`
   align-items: center;
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
-  color: #fff;
+  color: #222;
   background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(45,253,163,1) 100%)'};
   cursor: pointer;
   transition: 0.5s ease;
@@ -202,7 +202,7 @@ export const ButtonBack = styled.div`
 export const ButtonFront = styled.button`
   border: none;
   border-radius: 50px;
-  color: #fff;
+  color: #222;
   display: flex;
   position: absolute;
   top: 0;

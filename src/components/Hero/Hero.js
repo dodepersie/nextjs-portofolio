@@ -18,7 +18,7 @@ const Hero = () => (
       <SectionText>
         A undergraduate system information student at ITB STIKOM Bali & HELP University Malaysia who passionate with code
       </SectionText>
-      <Button onClick={() => window.location = '#projects'}>
+      <Button onClick={() => window.location.href = '#projects'}>
         Learn More
       </Button>
     </LeftSection>
