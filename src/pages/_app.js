@@ -7,9 +7,8 @@ import "aos/dist/aos.css";
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     Aos.init({
-      easing: "ease-out-cubic",
-      once: true,
-      offset: 50,
+      easing: "ease-in-out-cubic",
+      offset: 100,
     });
   }, []);
 

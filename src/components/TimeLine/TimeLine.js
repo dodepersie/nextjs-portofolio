@@ -43,8 +43,9 @@ const Timeline = () => {
   }, []);
 
   return (
-    <div data-aos="fade-up" data-aos-duration="500">
     <Section id="about">
+    <SectionDivider />
+    <div data-aos="fade-up" data-aos-duration="500">
     <SectionTitle>About me</SectionTitle>
     <SectionText>
       A undergraduate system information student at ITB STIKOM Bali & HELP University Malaysia who passionate with code (≧∀≦)ゞ
@@ -111,9 +112,9 @@ const Timeline = () => {
         </CarouselButton>
       ))}
     </CarouselButtons>
+    </div>
     <SectionDivider />
   </Section>
-  </div>
   );
 };
 

@@ -22,7 +22,7 @@ const Footer = () => {
         <CompanyContainer data-aos="fade-right" data-aos-duration="500">
         <Slogan>@ 2022 - mahadisaputra.my.id</Slogan>
         </CompanyContainer>
-        <SocialContainer data-aos="fade-left" data-aos-duration="500" style={{ overflowX: "hidden" }}>
+        <SocialContainer data-aos="fade-left" data-aos-duration="500">
         <SocialIcons href="https://github.com/dodepersie">
         <AiFillGithub size="3rem" />
         </SocialIcons>
