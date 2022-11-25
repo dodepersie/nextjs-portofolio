@@ -27,7 +27,6 @@ function BackToTop() {
             {backToTop && (
                 <ButtonToTop 
                     data-aos="fade-up" 
-                    data-aos-duration="500" 
                     onClick={scrollUp}
                 >
                     <BiUpArrow style={{ fontSize: "4rem" }} />

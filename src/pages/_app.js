@@ -7,8 +7,10 @@ import "aos/dist/aos.css";
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     Aos.init({
-      easing: "ease-in-out-cubic",
-      offset: 100,
+      easing: 'ease-in-out-back',
+      duration: 750,
+      offset: 50,
+      disable: 'mobile',
     });
   }, []);
 
@@ -17,7 +19,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>mahadisaputra.my.id: Portfolio</title>
         <meta name="author" content="I Dewa Gede Mahadi Saputra"/>
-        <meta name="description" content="Mahadi Saputra's personal portfolio website" />
+        <meta name="description" content="Mahadi Saputra's Portfolio Website" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Theme>
