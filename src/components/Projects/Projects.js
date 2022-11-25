@@ -5,7 +5,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <div data-aos="fade-up" data-aos-duration="500">
+  <div data-aos="fade-up">
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>
@@ -13,7 +13,7 @@ const Projects = () => (
     </SectionTitle>
     <GridContainer>
       {projects.map(({ id, image, title, description, tags, source, visit }) => (
-        <div data-aos="flip-left" data-aos-offset="100" data-aos-duration="500">
+        <div data-aos="flip-left">
           <BlogCard key={id}>
             <Img src={image} alt={title} />
             <TitleContent>

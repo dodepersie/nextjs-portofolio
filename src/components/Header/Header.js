@@ -8,14 +8,14 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 const Header = () =>  {
   return (
     <Container>
-      <Div1 data-aos="fade-right" data-aos-duration="500">
+      <Div1 data-aos="fade-right">
         <Link href="/">
           <a style={{ display: "flex", alignItems: "center", color: 'white'}}>
             <GiNinjaHead size="3rem"/> <Span>Mahadi Saputra</Span>
           </a>
         </Link>
       </Div1>
-      <Div2 data-aos="zoom-out-down" data-aos-duration="500">
+      <Div2 data-aos="zoom-out-down">
         <li>
           <Link href="#projects">
             <NavLink>Projects</NavLink>
@@ -32,7 +32,7 @@ const Header = () =>  {
           </Link>
         </li>
       </Div2>
-      <Div3 data-aos="fade-left" data-aos-duration="500">
+      <Div3 data-aos="fade-left">
         <SocialIcons href="https://github.com/dodepersie">
           <AiFillGithub size="3rem" />
         </SocialIcons>

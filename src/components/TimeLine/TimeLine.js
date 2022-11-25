@@ -45,7 +45,7 @@ const Timeline = () => {
   return (
     <Section id="about">
     <SectionDivider />
-    <div data-aos="fade-up" data-aos-duration="500">
+    <div data-aos="fade-up">
     <SectionTitle>About me</SectionTitle>
     <SectionText>
       A undergraduate system information student at ITB STIKOM Bali & HELP University Malaysia who passionate with code (≧∀≦)ゞ

@@ -6,7 +6,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
     <FooterWrapper>
-    <div data-aos="fade-up" data-aos-duration="500">
+    <div data-aos="fade-up">
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
@@ -19,10 +19,10 @@ const Footer = () => {
       </LinkList>
       </div>
       <SocialIconsContainer>
-        <CompanyContainer data-aos="fade-right" data-aos-duration="500">
+        <CompanyContainer data-aos="fade-right">
         <Slogan>@ 2022 - mahadisaputra.my.id</Slogan>
         </CompanyContainer>
-        <SocialContainer data-aos="fade-left" data-aos-duration="500">
+        <SocialContainer data-aos="fade-left">
         <SocialIcons href="https://github.com/dodepersie">
         <AiFillGithub size="3rem" />
         </SocialIcons>

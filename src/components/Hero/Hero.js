@@ -6,8 +6,7 @@ import { LeftSection } from './HeroStyles';
 
 const Hero = () => (
   <div 
-    data-aos="fade-right" 
-    data-aos-duration="1000"
+    data-aos="fade-right"
   >
   <Section row nopadding>
     <LeftSection>

@@ -11,7 +11,7 @@ const data = [
 ];
 
 const Acomplishments = () => (
-  <div data-aos="fade-up" data-aos-duration="500">
+  <div data-aos="fade-up">
     <Section>
       <SectionTitle>Accomplishments</SectionTitle>
       <Boxes>
