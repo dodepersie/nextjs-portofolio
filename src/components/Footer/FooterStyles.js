@@ -10,7 +10,7 @@ export const FooterWrapper = styled.section`
 
   @media ${props => props.theme.breakpoints.sm} {
     padding: 0 16px 48px;
-    width: calc(100vw - 32px);
+    width: calc(100vw - 50px);
   }
 `
 
@@ -35,7 +35,7 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 10px;
+		font-size: 12px;
 		line-height: 14px;
 		margin-bottom: 8px;
 		display: flex;
@@ -57,6 +57,8 @@ justify-content: space-between;
   display: flex;
 	width: 100%;
   flex-direction: column;
+  padding-top: 30px;
+
 }
 `
 

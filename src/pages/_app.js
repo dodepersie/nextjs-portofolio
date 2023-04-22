@@ -7,10 +7,9 @@ import "aos/dist/aos.css";
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     Aos.init({
-      easing: 'ease-in-out-back',
-      duration: 750,
+      easing: 'ease-out-back',
+      duration: 1000,
       offset: 50,
-      disable: 'mobile',
     });
   }, []);
 

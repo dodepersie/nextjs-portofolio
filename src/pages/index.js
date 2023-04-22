@@ -6,8 +6,11 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import ScrollToTop from "react-scroll-to-top";
+import { BiUpArrow } from 'react-icons/bi';
 
 const Home = () => {
+  
   return (
     <Layout>
       <Section grid>
@@ -18,6 +21,7 @@ const Home = () => {
       <Technologies />
       <Timeline />
       <Acomplishments />
+      <ScrollToTop data-aos="fade-up" smooth component={<BiUpArrow style={{ fontSize: "2rem" }} />} />
     </Layout>
   );
 };

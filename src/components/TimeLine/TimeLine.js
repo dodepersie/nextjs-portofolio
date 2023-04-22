@@ -46,9 +46,9 @@ const Timeline = () => {
     <Section id="about">
     <SectionDivider />
     <div data-aos="fade-up">
-    <SectionTitle>About me</SectionTitle>
+    <SectionTitle>About</SectionTitle>
     <SectionText>
-      A undergraduate system information student at ITB STIKOM Bali & HELP University Malaysia who passionate with code (≧∀≦)ゞ
+      My full name is I Dewa Gede Mahadi Saputra. People call me Dode or Mahadi. I'm from Bali, Indonesia. Currently, I'm a Information System student at ITB STIKOM Bali & HELP University Malaysia. And I like to code (≧∀≦)ゞ
     </SectionText>
     <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
       <>
@@ -113,7 +113,6 @@ const Timeline = () => {
       ))}
     </CarouselButtons>
     </div>
-    <SectionDivider />
   </Section>
   );
 };

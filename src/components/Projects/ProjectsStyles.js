@@ -2,9 +2,12 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:200px;
+  height:250px;
   object-fit: cover;
   overflow: hidden;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    height:200px;
+  }
 `
 
 export const GridContainer = styled.section`
@@ -12,12 +15,12 @@ display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
 place-items: center;
-column-gap: 2rem;
+column-gap: 7rem;
 row-gap: 3rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 3rem;
   padding-bottom: 0;
 }
 
@@ -26,9 +29,10 @@ export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: rgba(80, 78, 78, 0.5) 0px 10px 15px -3px, rgba(80, 78, 78, 0.5) 0px 4px 6px -2px;
   text-align: justify;
-  width: 400px;
+  width: 490px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    padding: auto;
   }
 `;
 

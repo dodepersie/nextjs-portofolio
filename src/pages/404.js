@@ -8,7 +8,7 @@ const NotFound = () => {
     return (
         <>
             <Head>
-                <title>mahadisaputra.my.id: Not Found</title>
+                <title>mahadisaputra.my.id: 404 Page Not Found</title>
                 <meta name="author" content="I Dewa Gede Mahadi Saputra"/>
                 <meta name="description" content="Mahadi Saputra's personal portfolio website" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />

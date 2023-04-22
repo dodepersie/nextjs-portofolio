@@ -12,13 +12,13 @@ const HeroNotFound = () => (
     <LeftSection>
       <SectionTitle main center>
         404<br />
-        Page not found
+        Page Not Found
       </SectionTitle>
       <SectionText>
         You are trying to access page that is not exist on this site (￣ ‘i ￣;)
       </SectionText>
       <Button onClick={() => history.back()}>
-        Go Back
+        Go Back 🫡
       </Button>
     </LeftSection>
   </Section>

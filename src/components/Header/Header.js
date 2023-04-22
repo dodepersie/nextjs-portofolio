@@ -2,7 +2,6 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillFacebook, AiFillGithub, AiFillInstagram } from 'react-icons/ai';
 import { GiNinjaHead } from 'react-icons/gi';
-
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  {
@@ -16,12 +15,12 @@ const Header = () =>  {
         </Link>
       </Div1>
       <Div2 data-aos="zoom-out-down">
-        <li>
+        <li style={{ marginRight: "50px"}}>
           <Link href="#projects">
             <NavLink>Projects</NavLink>
           </Link>
         </li>
-        <li>
+        <li style={{ marginRight: "50px"}}>
           <Link href="#tech">
             <NavLink>Tech</NavLink>
           </Link>
@@ -36,7 +35,7 @@ const Header = () =>  {
         <SocialIcons href="https://github.com/dodepersie">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://instagram.com/dodepersie">
+        <SocialIcons href="https://instagram.com/mahadisptr">
           <AiFillInstagram size="3rem" />
         </SocialIcons>
         <SocialIcons href="https://www.facebook.com/dodepersie">

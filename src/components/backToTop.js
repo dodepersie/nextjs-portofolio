@@ -7,7 +7,7 @@ function BackToTop() {
 
     useEffect(() => {
         window.addEventListener("scroll", () =>  {
-            if(window.scrollY > 80) {
+            if(window.scrollY > 10) {
                 setBackToTop(true)
             } else {
                 setBackToTop(false)

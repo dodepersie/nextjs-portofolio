@@ -1,15 +1,18 @@
 import styled from "styled-components";
 
 export const ButtonToTop = styled.button`
-    background: transparent;
+    background: rgba(255, 255, 255, 1);
     border: none;
-    color: rgba(45,253,163,1);
+    border-radius: 8px;
+    color: rgba(13, 173, 142, 1);
     position: fixed;
-    bottom: 25px; 
-    right: 25px;
-    padding: 2rem;
+    bottom: 12px; 
+    right: 12px;
+    padding: .5rem;
     cursor: pointer;
-    &:hover {
-        color: #808dad;
-    }
+    transition: opacity .5s, visibility .5s;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1000;
+    overflow-x: hidden;
 `;

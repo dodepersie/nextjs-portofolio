@@ -1,18 +1,19 @@
 import React from 'react';
 
-import { Section, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionTitle, SectionDivider } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
   { number: '2x', text: 'Winning Computer Competition'},
   { number: '5+', text: 'Open Source Projects'},
-  { number: '10+', text: 'Years Coding Experiences', },
-  { number: '2000+', text: 'Followers on Instagram', }
+  { number: '10+', text: 'Years Front-End Experiences', },
+  { number: '3000+', text: 'Instagram Followers', }
 ];
 
 const Acomplishments = () => (
   <div data-aos="fade-up">
     <Section>
+      <SectionDivider />
       <SectionTitle>Accomplishments</SectionTitle>
       <Boxes>
         {data.map((card, index) => (
