@@ -1,12 +1,9 @@
 # nextjs-portfolio
 
-NextJS Portfolio Site - Tutorial from JavaScript Mastery - Added by me (Mahadi Saputra a.k.a DodePersie)
+NextJS Portfolio Site - Tutorial from JavaScript Mastery - Edited by me (Mahadi Saputra a.k.a DodePersie)
 
-## Screenshot
-
-<p align="left">
-  <img src="https://mahadisaputra.my.id/images/4.png" width="350" title="mahadisaputra.my.id Portfolio Site">
-</p>
+## Live Demo
+[Just click here](https://mahadisaputra.my.id)
 
 ## New feature
 - Add BackToTop Function
@@ -15,11 +12,13 @@ NextJS Portfolio Site - Tutorial from JavaScript Mastery - Added by me (Mahadi S
 - Add 404 Page
 
 ## Change
-- Color gradient on SectionTitle
-- Site color to green
+- Remove SectionTitle, SectionDivider color gradient
+- Font from Space Grotesk -> Poppins
+- Project Card Info Box Shadow Style and Color
 
 ## Fix
-- Margin padding on sm screen
-- Margin padding on computer screen
+- Project Card Info margin padding on sm screen
+- Project Card Info margin padding on computer screen
+- Image height px
 
-New update/change/fix will come very soon ( if i am not lazy 🤣 )
+New update/change/fix will come very soon ( if i'm not lazy 🤣 )
