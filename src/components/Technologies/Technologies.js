@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiGit } from 'react-icons/di';
+import { DiReact, DiCode, DiGit } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -9,26 +9,26 @@ const Technologies = () =>  (
     <div data-aos="fade-up">
     <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
-      I have done some projects by myself and i'm a Front-End Web Dev addict and still learning about Back-End Web Dev (‾◡◝)
+      I've done some projects by myself & I'm a Front-End addict and currently learning about Back-End (‾◡◝)
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
+        <DiCode size="3rem" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Web Dev</ListTitle>
           <ListParagraph>
             Experience with<br />
-            Bootstrap & React.JS
+            CSS, HTML, PHP, Web Deployment & WordPress
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Framework</ListTitle>
           <ListParagraph>
             Experience with <br />
-            mySQL
+            React JS, Next JS, Bootstrap, Tailwind & mySQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -37,8 +37,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Collaborate</ListTitle>
           <ListParagraph>
-            Still learning collaborate with <br />
-            Git
+            Can collaborate with <br />
+            Git, especially GitHub
           </ListParagraph>
         </ListContainer>
       </ListItem>

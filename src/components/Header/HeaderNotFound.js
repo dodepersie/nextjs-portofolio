@@ -19,7 +19,7 @@ const HeaderNotFound = () =>  {
         <SocialIcons href="https://github.com/dodepersie">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://instagram.com/dodepersie">
+        <SocialIcons href="https://instagram.com/mahadisptr">
           <AiFillInstagram size="3rem" />
         </SocialIcons>
         <SocialIcons href="https://www.facebook.com/dodepersie">
