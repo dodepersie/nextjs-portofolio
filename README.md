@@ -3,7 +3,7 @@
 NextJS Portfolio Site - Tutorial from JavaScript Mastery - Edited by me (Mahadi Saputra a.k.a DodePersie)
 
 ## Live Demo
-[Just click here](https://mahadisaputra.my.id)
+[Just click here](https://v2.mahadisaputra.my.id)
 
 ## New feature
 - Add BackToTop Function
